@@ -26,20 +26,20 @@
 </head>
 
 <body class="hold-transition login-page">
-  <div class="container ">
+  <div class="container">
     <div class="row">
       <div class="login-container col-lg-4 col-md-6 col-sm-8 col-xs-12">
         <div class="login-title text-center">
           <h2><span>Komik<strong> Makmur</strong></span></h2>
         </div>
         <div class="login-content">
-          <div class="login-header ">
+          <div class="login-header">
             <h3><strong>Haloo!!</strong></h3>
             <h5><strong>Silahkan login terlebih dahulu</strong></h5>
           </div>
           <div class="login-body">
             <form role="form" action="login_process.php" method="post" class="login-form">
-              <div class="form-group ">
+              <div class="form-group">
                 <div class="pos-r">
                   <input id="form-username" type="text" name="username" placeholder="Username..."
                     class="form-username form-control">
@@ -56,23 +56,26 @@
                 </div>
               </div><br>
 
+              <!-- Tombol Login -->
               <div class="form-group">
-                <button type="submit" class="btn btn-warning form-control"><strong>Sign in</strong></button>
+                <button type="submit" class="btn btn-warning form-control"><strong>Login</strong></button>
               </div>
 
+              <!-- Tulisan Registrasi -->
+              <div class="form-group text-center">
+                <small>
+                  Belum punya akun?
+                  <a href="register.php" class="text-warning"><strong>Registrasi di sini</strong></a>
+                </small>
+              </div>
             </form>
           </div> <!-- end  login-body -->
         </div><!-- end  login-content -->
       </div> <!-- end  login-container -->
-
     </div>
-  </div><!-- end container -->
-  <!-- /.login-box -->
-  <!-- jQuery 2.2.3 -->
-  <script src="../plugins/jQuery/jquery-2.2.3.min.js"></script>
-  <script src="../bootstrap/js/bootstrap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </div>
 </body>
+
 
 </html>
 
